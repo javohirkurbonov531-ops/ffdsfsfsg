@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MED — Tibbiy Patronaj va Pediatriya Testi</title>
+
+<link rel="stylesheet" href="style.css">
+
+    
+</head>
+<body>
+
+<div class="container">
+    <div class="header-box">
+        <h1>Tibbiy Patronaj va Pediatriya Testi</h1>
+        <p>Ushbu test patronaj hamshiralari va tibbiyot xodimlari uchun bilimlarni mustahkamlash maqsadida tuzilgan.</p>
+    </div>
+
+    <div class="sticky-header">
+        <div>Progress: <span id="ans-count">0</span> / <span id="total-q"></span></div>
+        <button id="refresh-btn" onclick="location.reload()">Yangilash</button>
+    </div>
+
+    <div id="quiz-container"></div>
+
+    <div id="result-box">
+        <h3>Natijangiz: <span id="score">0</span> / <span id="total-q"></span></h3>
+        <p>Foizda: <span id="percent">0</span>%</p>
+    </div>
+    <div class="author-box">
+        <strong>Sayt muallifi:</strong><br>
+        🚀 Faridjon Nusratov<br>
+        📞 Tel: <a href="tel:+998997307712" style="color: var(--accent); text-decoration: none;">+998 99 730 77 12</a>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
